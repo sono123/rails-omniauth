@@ -11,7 +11,7 @@ gem 'omniauth', '~> 1.3', '>= 1.3.1'
 gem 'omniauth-twitter', '~> 1.2', '>= 1.2.1'
 gem 'bootstrap-sass'
 gem 'high_voltage'
-gem 'debugger', '~> 1.6', '>= 1.6.8'
+# gem 'debugger', '~> 1.6', '>= 1.6.8'
 
 group :development, :test do
   gem 'byebug'
