@@ -12,4 +12,13 @@ module Omniauth
 		end
 	end
 
+	module SessionHelpers
+		def signin
+			visit root_path
+			expect(page).to have_content("Sign In")
+			auth_mock
+			click_link "Sign In"
+		end
+	end
+
 end
