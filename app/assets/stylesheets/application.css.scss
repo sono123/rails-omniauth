@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+.alert, alert-danger, alert-success {
+  margin-top: 50px !important;
+  margin-bottom: 0 !important;
+}
+
+.authform {
+	margin-top: 75px;
+}
+
+
